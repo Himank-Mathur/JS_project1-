@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">   
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-500">
+    <div class="text-center border-2 border-black rounded-xl p-5">
+        <h1 class="text-5xl font-bold mb-4">Stop_Watch</h1>
+        <div id="display" class="text-6xl font-mono mb-4">00:00:00</div>
+        <div>
+            <button id="start" class="px-4 py-2 rounded-full border-2 border-black hover:text-white hover:bg-black ">Start</button>
+            <button id="stop" class="px-4 py-2 rounded-full border-2 border-black hover:text-white hover:bg-black ">Stop</button>
+            <button id="reset" class="px-4 py-2 rounded-full border-2 border-black hover:text-white hover:bg-black ">Reset</button>
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
